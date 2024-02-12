@@ -39,10 +39,10 @@ print(name + ['Yes I have a boring name', 'Kilduff'])
 
 print('\n', 50 * "*", '\n')
 
-# print(name.extend(['Yes I have a boring name', 'Kilduff']))
 # extend modifies the list but returns 0 - need to print AFTER extending
 name.extend(['Yes I have a boring name', 'Kilduff'])
 print(name)
+# print(name.extend(['Laura Stephanie', 'Kilduff']), name[0:3])
 
 print('\n', 50 * "*", '\n')
 
