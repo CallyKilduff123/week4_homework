@@ -5,7 +5,7 @@ cheese = ['Cheddar', 'Stilton', 'Cornish Yarg']
 cheese += 'Oke'
 print(cheese)
 # adding multiple items to the right hand side
-cheese.extend(['Babybel', 'Baron Bigod', 'Jarlsberg', 'Gorgonzola'])
+# print(cheese.extend(['Babybel', 'Baron Bigod', 'Jarlsberg', 'Gorgonzola']))
 print(cheese)
 # inserting item at the 5th index
 cheese.insert(5,'Wild Garlic Cornish Yarg')
